@@ -344,7 +344,7 @@ Converted["_FloatingButton"].BackgroundColor3 = Color3.fromRGB(31.00000195205211
 Converted["_FloatingButton"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_FloatingButton"].BorderSizePixel = 0
 Converted["_FloatingButton"].Position = UDim2.new(0, 125, 0, 40)
-Converted["_FloatingButton"].Size = UDim2.new(0, 100, 0, 100)
+Converted["_FloatingButton"].Size = UDim2.new(0, 30, 0, 30)
 Converted["_FloatingButton"].Visible = false
 Converted["_FloatingButton"].Name = "FloatingButton"
 Converted["_FloatingButton"].Parent = Converted["_YARHM"]
@@ -3265,7 +3265,7 @@ local function DXIEA_fake_script() -- Fake Script: ServerStorage.YARHM.Murder My
 			if autoGetDroppedGun then
 				fu.notification("Auto get dropped gun - Cooling down...")
 				task.wait(1)
-				if not workspace.Normal:FindFirstChild("GunDrop") then fu.notification("No dropped gun to be teleported to.") return end
+				if not workspace.Normal:FindFirstChild("GunDrop") then fu.notification("No dropped gun to be teleported to HAHAHAHAHAHAH.") return end
 				local previousPosition = localplayer.Character:GetPivot()
 				localplayer.Character:MoveTo(workspace.Normal:FindFirstChild("GunDrop").Position)
 				localplayer.Backpack.ChildAdded:Wait()
@@ -3847,7 +3847,7 @@ local function DXIEA_fake_script() -- Fake Script: ServerStorage.YARHM.Murder My
 	table.insert(module, {
 		Type = "Button",
 		Args = {"Teleport to dropped gun", function(Self)
-			if not workspace.Normal:FindFirstChild("GunDrop") then fu.notification("No dropped gun to be teleported to.") return end
+			if not workspace.Normal:FindFirstChild("GunDrop") then fu.notification("No dropped gun to be teleported to :(.") return end
 			local previousPosition = localplayer.Character:GetPivot()
 			localplayer.Character:PivotTo(workspace.Normal:FindFirstChild("GunDrop"):GetPivot())
 			localplayer.Backpack.ChildAdded:Wait()
